@@ -1,4 +1,5 @@
-<LinearLayout android:layout_height="match_parent"
+<LinearLayout
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:padding="50px"
@@ -53,5 +54,13 @@
         android:background="@drawable/grad"
         android:textColor="@color/black"
         android:id="@+id/subbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        android:layout_margin="20px"
+        android:background="@drawable/grad"
+        android:textColor="@color/black"
+        android:id="@+id/viewbtn"/>
 
 </LinearLayout>
