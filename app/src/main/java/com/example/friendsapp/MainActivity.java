@@ -74,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
                                  @Override
                                  public void onResponse(JSONObject response) {
                                      Toast.makeText(getApplicationContext(), "Added Successfully", Toast.LENGTH_LONG).show();
+                                     e1.setText("");
+                                     e2.setText("");
+                                     e3.setText("");
+                                     e4.setText("");
                                  }
                              },
                              new Response.ErrorListener() {
